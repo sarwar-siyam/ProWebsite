@@ -197,13 +197,31 @@
         </article>
 
         <h3 class="sub-title">Open-Source-Projekte auf GitHub</h3>
-        <div class="cards three">
-          <a class="card project" href="https://github.com/sarwar-siyam/sql-data-warehouse-project" target="_blank" rel="noopener">
-            <div class="tags"><span>SQL Server</span><span>Medallion</span><span>ETL</span></div>
+
+        <article class="case featured">
+          <div class="case-head">
+            <span class="case-label">Open Source · Data Engineering · SQL Server</span>
             <h3>Data Warehouse mit Medallion-Architektur</h3>
-            <p>Webshop- und ERP-Daten über Bronze, Silver und Gold zu einem Sternschema – mit Datenqualitätsregeln und automatisierten Tests.</p>
-            <span class="more">Auf GitHub →</span>
-          </a>
+          </div>
+          <div class="flow" aria-label="Datenfluss des Data Warehouse">
+            <div class="flow-step"><strong>Webshop + ERP</strong><span>6 CSV-Quellen</span></div>
+            <div class="flow-step bronze"><strong>Bronze</strong><span>BULK INSERT, roh</span></div>
+            <div class="flow-step silver"><strong>Silver</strong><span>20+ Bereinigungsregeln</span></div>
+            <div class="flow-step gold"><strong>Gold</strong><span>Sternschema</span></div>
+            <div class="flow-step"><strong>Analysen</strong><span>Power BI & SQL</span></div>
+          </div>
+          <div class="case-grid">
+            <div><h4>Ausgangslage</h4><p>Ein Händler mit zwei Systemen: Webshop und ERP liefern Kunden-, Produkt- und Bestelldaten – mit Duplikaten, uneinheitlichen Codes, fehlerhaften Datumswerten und falschen Beträgen.</p></div>
+            <div><h4>Lösung</h4><p>Ladestrecke mit Stored Procedures: Bronze sichert die Rohdaten, Silver bereinigt und vereinheitlicht, Gold integriert beide Systeme zu einem Sternschema. Jeder Ladeschritt wird protokolliert.</p></div>
+            <div class="result"><h4>Ergebnis</h4><p><strong>Eine einheitliche, geprüfte Datenbasis</strong> – abgesichert durch 16 automatisierte Qualitätstests und reproduzierbar per Docker.</p></div>
+          </div>
+          <div class="case-foot">
+            <div class="tags"><span>SQL Server</span><span>T-SQL</span><span>Medallion-Architektur</span><span>Sternschema</span><span>Docker</span></div>
+            <a class="btn btn-primary btn-sm" href="https://github.com/sarwar-siyam/sql-data-warehouse-project" target="_blank" rel="noopener">Code & Doku auf GitHub →</a>
+          </div>
+        </article>
+
+        <div class="cards two">
           <a class="card project" href="https://github.com/sarwar-siyam/Postgres_Queries" target="_blank" rel="noopener">
             <div class="tags"><span>PostgreSQL</span><span>Sternschema</span><span>CTEs</span></div>
             <h3>Arbeitsmarktanalyse für Data Analysts</h3>
