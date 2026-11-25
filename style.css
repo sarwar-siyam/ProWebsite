@@ -260,6 +260,16 @@ img { max-width: 100%; height: auto; display: block; }
 .skip-link { position: absolute; left: -9999px; top: 8px; z-index: 100; background: var(--accent); color: var(--on-accent); padding: 8px 14px; border-radius: 8px; font-weight: 600; }
 .skip-link:focus { left: 8px; }
 
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+.btn:focus-visible { outline-offset: 2px; }
+summary:focus-visible { outline-offset: 4px; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+  .btn:hover { transform: none; }
+}
+
 /* 13. Responsive -------------------------------------------------------------- */
 @media (max-width: 960px) {
   .hero-grid { grid-template-columns: 1fr; gap: 32px; }
