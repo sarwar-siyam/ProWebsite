@@ -140,6 +140,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .cards { display: grid; gap: 20px; }
 .cards.three { grid-template-columns: repeat(3, 1fr); }
+.cards.two { grid-template-columns: repeat(2, 1fr); }
 .card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 26px; }
 .section.alt .card { background: var(--card-alt); }
 .card h3 { font-size: 1.08rem; margin-bottom: 8px; }
@@ -305,7 +306,7 @@ summary:focus-visible { outline-offset: 4px; }
   .container { padding: 0 16px; }
   .hero { padding: 48px 0 52px; }
   .stats { grid-template-columns: 1fr; gap: 16px; margin-top: 32px; }
-  .cards.three, .stack, .steps, .certs { grid-template-columns: 1fr; }
+  .cards.three, .cards.two, .stack, .steps, .certs { grid-template-columns: 1fr; }
   .section { padding: 60px 0; }
   .card, .case { padding: 22px; }
   .case-head h3 { font-size: 1.15rem; }
