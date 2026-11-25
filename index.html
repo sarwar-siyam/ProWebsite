@@ -3,310 +3,440 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Siyam Aghbar – Power BI & Azure Data Engineering</title>
-  <meta name="description" content="Power BI, Azure Databricks, Azure Data Factory und Microsoft Fabric: Ich mache aus verteilten Daten verlässliche Reports und skalierbare Datenplattformen.">
+  <title>Siyam Aghbar – Data Engineer (Azure, Databricks, Microsoft Fabric, Power BI)</title>
+  <meta name="description" content="Siyam Aghbar, Data Engineer aus Frankfurt: Datenplattformen mit Azure Data Factory, Databricks und Microsoft Fabric, Reporting mit Power BI.">
   <link rel="preload" href="fonts/inter-latin-var.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <a class="skip-link" href="#inhalt">Zum Inhalt</a>
 
   <header class="nav">
     <div class="container nav-inner">
-      <a href="#top" class="logo">SA<span>.</span></a>
-      <nav>
-        <a href="#leistungen">Leistungen</a>
+      <a href="#top" class="logo">Siyam Aghbar</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="hauptmenue">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="visually-hidden">Menü</span>
+      </button>
+      <nav id="hauptmenue" class="nav-menu" aria-label="Hauptnavigation">
+        <a href="#profil">Profil</a>
+        <a href="#erfahrung">Erfahrung</a>
         <a href="#projekte">Projekte</a>
-        <a href="#stack">Tech-Stack</a>
-        <a href="#vorgehen">Vorgehen</a>
-        <a href="#kontakt" class="nav-cta">Kontakt</a>
+        <a href="#skills">Skills</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="assets/Lebenslauf_Siyam_Aghbar.pdf" class="btn btn-primary btn-sm nav-cv">Lebenslauf (PDF)</a>
       </nav>
     </div>
   </header>
 
-  <main id="top">
+  <main id="inhalt">
 
-    <!-- HERO -->
-    <section class="hero">
-      <div class="container">
-        <p class="eyebrow">Power BI · Azure · Databricks · Microsoft Fabric</p>
-        <h1>Aus verteilten Daten werden <span class="hl">Entscheidungen</span>.</h1>
-        <p class="lead">
-          Ich baue Datenplattformen und Power-BI-Lösungen, denen Management und Fachbereiche vertrauen:
-          schnell, automatisiert und sicher – von der ersten Anforderung bis zum produktiven Betrieb.
-        </p>
-        <div class="hero-actions">
-          <a href="#kontakt" class="btn btn-primary">Projekt besprechen</a>
-          <a href="#projekte" class="btn btn-ghost">Projekte ansehen</a>
+    <!-- ===================================================== HERO -->
+    <section id="top" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Data Engineer · Frankfurt / Rhein-Main · vor Ort, hybrid oder remote</p>
+          <h1>Siyam Aghbar</h1>
+          <p class="role">Data Engineer · Azure Databricks, Microsoft Fabric &amp; Power BI</p>
+          <p class="lead">
+            Ich habe Datenplattformen in Azure und Power-BI-Lösungen von der Anforderung bis zum produktiven Betrieb aufgebaut.
+            Unter anderem habe ich eine Abrechnungsplattform neu entwickelt und die Aktualisierung von 4&nbsp;Stunden auf 5&nbsp;Minuten verkürzt.
+          </p>
+          <div class="hero-actions">
+            <a href="assets/Lebenslauf_Siyam_Aghbar.pdf" class="btn btn-primary">Lebenslauf herunterladen (PDF)</a>
+            <a href="#kontakt" class="btn btn-ghost">Kontakt aufnehmen</a>
+            <a href="https://www.linkedin.com/in/siyam-aghbar-1a1a46248/" class="text-link" target="_blank" rel="noopener">LinkedIn →</a>
+          </div>
+          <ul class="stats">
+            <li><strong>–98&nbsp;%</strong><span>Aktualisierungszeit (4&nbsp;h → 5&nbsp;min) nach Neuaufbau einer Datenplattform</span></li>
+            <li><strong>4 Jahre</strong><span>Erfahrung in Daten- und Analytics-Projekten</span></li>
+            <li><strong>3</strong><span>Microsoft-Associate-Zertifizierungen (DP-700, DP-600, PL-300)</span></li>
+          </ul>
         </div>
-        <ul class="stats">
-          <li><strong>4 h → 5 min</strong><span>Datenaktualisierung nach Neuaufbau der Plattform</span></li>
-          <li><strong>End-to-End</strong><span>Von der Datenquelle bis zur Power-BI-App</span></li>
-          <li><strong>4×</strong><span>Microsoft-zertifiziert (Fabric, Power BI, Azure)</span></li>
+
+        <aside class="hero-side" aria-label="Auf einen Blick">
+          <!-- Porträtfoto: Datei nach assets/ legen und den Block einkommentieren
+          <picture>
+            <source srcset="assets/siyam-aghbar.avif" type="image/avif">
+            <source srcset="assets/siyam-aghbar.webp" type="image/webp">
+            <img class="portrait" src="assets/siyam-aghbar.jpg" width="480" height="560" alt="Porträt von Siyam Aghbar">
+          </picture>
+          -->
+          <div class="glance">
+            <h2 class="glance-title">Auf einen Blick</h2>
+            <dl>
+              <div><dt>Rolle</dt><dd>Data Engineer · Analytics Engineer · BI Developer</dd></div>
+              <div><dt>Schwerpunkte</dt><dd>Azure Databricks, Azure Data Factory, Microsoft Fabric, Power BI</dd></div>
+              <div><dt>Region</dt><dd>Frankfurt / Rhein-Main</dd></div>
+              <div><dt>Arbeitsmodell</dt><dd>vor Ort, hybrid oder remote</dd></div>
+              <div><dt>Sprachen</dt><dd>Deutsch, Farsi (Muttersprache) · Englisch (C1)</dd></div>
+            </dl>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===================================================== ZERTIFIKATE -->
+    <section class="cert-bar" aria-labelledby="zertifikate-titel">
+      <div class="container">
+        <h2 id="zertifikate-titel" class="visually-hidden">Microsoft-Zertifizierungen</h2>
+        <ul class="cert-list">
+          <li><a class="cert-badge" href="#ausbildung"><span class="code">DP-700</span><span>Fabric Data Engineer Associate</span></a></li>
+          <li><a class="cert-badge" href="#ausbildung"><span class="code">DP-600</span><span>Fabric Analytics Engineer Associate</span></a></li>
+          <li><a class="cert-badge" href="#ausbildung"><span class="code">PL-300</span><span>Power BI Data Analyst Associate</span></a></li>
+          <li><a class="cert-badge minor" href="#ausbildung"><span class="code">AZ-900</span><span>Azure Fundamentals</span></a></li>
         </ul>
+        <p class="todo-note">[[TODO: Verifizierungslinks (Credly oder Microsoft-Learn-Transkript) und Prüfungsjahr je Zertifikat – dann verlinken die Badges direkt dorthin]]</p>
       </div>
     </section>
 
-    <!-- PROBLEME -->
-    <section class="section alt">
+    <!-- ===================================================== WAS ICH MITBRINGE -->
+    <section id="profil" class="section">
       <div class="container">
-        <h2 class="section-title">Kommt Ihnen das bekannt vor?</h2>
-        <div class="cards three pains">
-          <div class="card">
-            <h3>Reports laden ewig</h3>
-            <p>Das Power-BI-Modell ist über die Jahre gewachsen, Aktualisierungen dauern Stunden oder brechen ab.</p>
-          </div>
-          <div class="card">
-            <h3>Jeder hat andere Zahlen</h3>
-            <p>Excel-Listen, Exporte und Schatten-Reports – aber keine gemeinsame, verlässliche Datenbasis.</p>
-          </div>
-          <div class="card">
-            <h3>Datenschutz bremst Reporting</h3>
-            <p>Sensible Daten dürfen nicht jeder sehen – also werden Berichte gar nicht erst geteilt.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- LEISTUNGEN -->
-    <section id="leistungen" class="section">
-      <div class="container">
-        <h2 class="section-title">Wie ich helfe</h2>
-        <p class="section-intro">Ich verbinde Data Engineering, BI und Business Analyse – damit am Ende nicht nur die Technik läuft, sondern die richtigen Fragen beantwortet werden.</p>
-        <div class="cards two">
-          <article class="card service">
-            <div class="icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/></svg>
-            </div>
-            <h3>Power-BI-Lösungen</h3>
-            <p>Dashboards und Berichte, die Management und Fachbereiche wirklich nutzen – performant, verständlich und zentral bereitgestellt.</p>
-            <ul class="checks">
-              <li>Sternschema-Datenmodelle & DAX-Kennzahlen</li>
-              <li>Power Query für saubere Datenaufbereitung</li>
-              <li>Row-Level Security für sensible Daten</li>
-              <li>Bereitstellung über Power BI Service & Apps</li>
-            </ul>
-          </article>
-          <article class="card service">
+        <h2 class="section-title">Was ich mitbringe</h2>
+        <p class="section-intro">Drei Schwerpunkte – jeweils mit einem Projekt, in dem ich sie eingesetzt habe.</p>
+        <div class="cards three">
+          <article class="card strength">
             <div class="icon" aria-hidden="true">
               <svg viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
             </div>
-            <h3>Datenplattformen in Azure</h3>
-            <p>Skalierbare Lakehouse-Architekturen, die Daten automatisiert laden, prüfen und für das Reporting bereitstellen.</p>
-            <ul class="checks">
-              <li>ETL/ELT-Pipelines mit Azure Data Factory</li>
-              <li>Azure Databricks, Spark & Delta Lake</li>
-              <li>Medallion-Architektur (Bronze / Silver / Gold)</li>
-              <li>Monitoring & Alerting statt manueller Kontrolle</li>
-            </ul>
+            <h3>Data Engineering in Azure &amp; Fabric</h3>
+            <p>ETL/ELT-Strecken mit Azure Data Factory und Azure Databricks (Delta Lake, Delta Live Tables) nach der Medallion-Architektur – mit automatischer Aktualisierung, Monitoring und Alerting.</p>
+            <a class="proof" href="#projekt-abrechnung">Beleg: Abrechnungsplattform →</a>
           </article>
-          <article class="card service">
+          <article class="card strength">
             <div class="icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M12 2l8 4.5v11L12 22l-8-4.5v-11z"/><path d="M12 22V12"/><path d="M20 6.5l-8 5.5-8-5.5"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M4 20V10"/><path d="M10 20V4"/><path d="M16 20v-7"/><path d="M22 20H2"/></svg>
             </div>
-            <h3>Microsoft Fabric</h3>
-            <p>Eine Plattform für Datenintegration, Lakehouse und Power BI – ideal für Unternehmen, die ihre Datenlandschaft vereinfachen wollen.</p>
-            <ul class="checks">
-              <li>Lakehouse & Warehouse in Fabric</li>
-              <li>Data Pipelines & Notebooks</li>
-              <li>Direct Lake für schnelle Berichte</li>
-              <li>Migration bestehender Power-BI-Lösungen</li>
-            </ul>
+            <h3>Power BI vom Datenmodell bis zur App</h3>
+            <p>Sternschema, Power Query, DAX und hierarchische Row-Level Security – veröffentlicht über Power-BI-Apps mit Berechtigungskonzept.</p>
+            <a class="proof" href="#projekt-zeiterfassung">Beleg: Zeiterfassungs-Reporting →</a>
+            <a class="proof" href="#projekt-mitglieder">Beleg: Mitglieder-Reporting →</a>
           </article>
-          <article class="card service">
+          <article class="card strength">
             <div class="icon" aria-hidden="true">
               <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><path d="M15 20c0-2 1-3.5 2-4 2.5 0 4 1.8 4 4"/></svg>
             </div>
-            <h3>Anforderungen & KPIs</h3>
-            <p>Ich übersetze zwischen Fachbereich, Management und IT – damit klar ist, was gemessen wird und warum.</p>
-            <ul class="checks">
-              <li>Anforderungsworkshops mit Fachbereichen</li>
-              <li>KPI-Definition & einheitliche Kennzahlen</li>
-              <li>Berechtigungs- & Datenschutzkonzepte (DSGVO)</li>
-              <li>Präsentation & Übergabe an die Nutzer</li>
-            </ul>
+            <h3>Brücke zwischen Fachbereich und IT</h3>
+            <p>Anforderungen in Workshops klären, Kennzahlen einheitlich definieren, Berechtigungen DSGVO-konform planen und Lösungen über CI/CD dokumentiert in Produktion bringen.</p>
+            <a class="proof" href="#projekte">Beleg: alle Projekte →</a>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- PROJEKTE -->
-    <section id="projekte" class="section alt">
+    <!-- ===================================================== BERUFSERFAHRUNG -->
+    <section id="erfahrung" class="section alt">
       <div class="container">
-        <h2 class="section-title">Ausgewählte Projekte</h2>
-        <p class="section-intro">Aus Vertraulichkeitsgründen ohne Namen – mit Fokus auf Ausgangslage, Lösung und Ergebnis.</p>
-
-        <article class="case">
-          <div class="case-head">
-            <span class="case-label">Data Engineering · Power BI</span>
-            <h3>Abrechnungsplattform: von 4 Stunden auf 5 Minuten</h3>
-          </div>
-          <div class="flow" aria-label="Datenfluss der Medallion-Architektur">
-            <div class="flow-step"><strong>Quellen</strong><span>Azure Data Factory</span></div>
-            <div class="flow-step bronze"><strong>Bronze</strong><span>Rohdaten</span></div>
-            <div class="flow-step silver"><strong>Silver</strong><span>bereinigt & geprüft</span></div>
-            <div class="flow-step gold"><strong>Gold</strong><span>Kennzahlen</span></div>
-            <div class="flow-step"><strong>Power BI</strong><span>Berichte & Apps</span></div>
-          </div>
-          <div class="case-grid">
-            <div><h4>Ausgangslage</h4><p>Ein überlastetes Power-BI-Modell verarbeitete alle Abrechnungsdaten selbst. Aktualisierungen dauerten rund vier Stunden und waren fehleranfällig.</p></div>
-            <div><h4>Lösung</h4><p>Neue Medallion-Architektur: Azure Data Factory lädt die Rohdaten in die <strong>Bronze</strong>-Schicht im Data Lake, Databricks und Delta Live Tables bereinigen sie in <strong>Silver</strong> und verdichten sie in <strong>Gold</strong> zu fertigen Kennzahl-Tabellen. Power BI greift nur noch auf Gold zu. Dazu automatisches Monitoring und Alerting.</p></div>
-            <div class="result"><h4>Ergebnis</h4><p><strong>–98 % Aktualisierungszeit</strong> (4 h → 5 min), stabile Ladeprozesse und Fehler werden gemeldet, bevor Nutzer sie bemerken.</p></div>
-          </div>
-          <div class="tags"><span>Medallion-Architektur</span><span>Azure Data Factory</span><span>ADLS Gen2</span><span>Databricks</span><span>Delta Live Tables</span><span>Power BI</span></div>
-        </article>
-
-        <article class="case">
-          <div class="case-head">
-            <span class="case-label">Power BI · Geo-Analyse</span>
-            <h3>Bundesweites Mitglieder-Reporting</h3>
-          </div>
-          <div class="case-grid">
-            <div><h4>Ausgangslage</h4><p>Mitgliederdaten lagen verteilt vor. Regionale Entwicklungen waren nur mit viel Handarbeit auswertbar.</p></div>
-            <div><h4>Lösung</h4><p>Skalierbares Datenmodell mit DAX-Kennzahlen und Geo-Heatmaps. Vom Prototyp in Power BI Desktop bis zur produktiven Bereitstellung über Power BI Service.</p></div>
-            <div class="result"><h4>Ergebnis</h4><p><strong>Regionale Entwicklungen auf einen Blick</strong> – eine zentrale Lösung statt einzelner Auswertungen.</p></div>
-          </div>
-          <div class="tags"><span>Power BI</span><span>DAX</span><span>Datenmodellierung</span><span>Geo-Visualisierung</span><span>Power BI Service</span></div>
-        </article>
-
-        <article class="case">
-          <div class="case-head">
-            <span class="case-label">Power BI · Datenschutz</span>
-            <h3>HR-Reporting als Single Source of Truth</h3>
-          </div>
-          <div class="case-grid">
-            <div><h4>Ausgangslage</h4><p>Arbeitszeiten und Abwesenheiten wurden in verschiedenen Listen gepflegt – mit unterschiedlichen Zahlen je nach Abteilung.</p></div>
-            <div><h4>Lösung</h4><p>Zentrales Datenmodell für das gesamte Unternehmen. Hierarchische Row-Level Security sorgt dafür, dass Führungskräfte nur die Daten ihres Bereichs sehen. Verteilung über eine Power-BI-App.</p></div>
-            <div class="result"><h4>Ergebnis</h4><p><strong>Eine verlässliche Zahlenbasis</strong> für alle Ebenen – DSGVO-konform und ohne manuelle Exporte.</p></div>
-          </div>
-          <div class="tags"><span>Power BI</span><span>Row-Level Security</span><span>Power Query</span><span>Power BI Apps</span></div>
-        </article>
-
-        <article class="case">
-          <div class="case-head">
-            <span class="case-label">Python · Automatisierung</span>
-            <h3>Automatisierung manueller Datenprozesse</h3>
-          </div>
-          <div class="case-grid">
-            <div><h4>Ausgangslage</h4><p>Wiederkehrende Datenaufbereitungen und Auswertungen wurden manuell erledigt und banden viel Zeit.</p></div>
-            <div><h4>Lösung</h4><p>Prozessanalyse zur Identifikation von Schwachstellen, anschließend Automatisierung mit Python-Skripten sowie Muster- und Trendanalysen.</p></div>
-            <div class="result"><h4>Ergebnis</h4><p><strong>Weniger Handarbeit, weniger Fehler</strong> – und mehr Zeit für die eigentliche Analyse.</p></div>
-          </div>
-          <div class="tags"><span>Python</span><span>Pandas</span><span>Prozessanalyse</span></div>
-        </article>
-
-        <h3 class="sub-title">Open-Source-Projekte auf GitHub</h3>
-
-        <article class="case featured">
-          <div class="case-head">
-            <span class="case-label">Open Source · Data Engineering · SQL Server</span>
-            <h3>Data Warehouse mit Medallion-Architektur</h3>
-          </div>
-          <div class="flow" aria-label="Datenfluss des Data Warehouse">
-            <div class="flow-step"><strong>Webshop + ERP</strong><span>6 CSV-Quellen</span></div>
-            <div class="flow-step bronze"><strong>Bronze</strong><span>BULK INSERT, roh</span></div>
-            <div class="flow-step silver"><strong>Silver</strong><span>20+ Bereinigungsregeln</span></div>
-            <div class="flow-step gold"><strong>Gold</strong><span>Sternschema</span></div>
-            <div class="flow-step"><strong>Analysen</strong><span>Power BI & SQL</span></div>
-          </div>
-          <div class="case-grid">
-            <div><h4>Ausgangslage</h4><p>Ein Händler mit zwei Systemen: Webshop und ERP liefern Kunden-, Produkt- und Bestelldaten – mit Duplikaten, uneinheitlichen Codes, fehlerhaften Datumswerten und falschen Beträgen.</p></div>
-            <div><h4>Lösung</h4><p>Ladestrecke mit Stored Procedures: Bronze sichert die Rohdaten, Silver bereinigt und vereinheitlicht, Gold integriert beide Systeme zu einem Sternschema. Jeder Ladeschritt wird protokolliert.</p></div>
-            <div class="result"><h4>Ergebnis</h4><p><strong>Eine einheitliche, geprüfte Datenbasis</strong> – abgesichert durch 16 automatisierte Qualitätstests und reproduzierbar per Docker.</p></div>
-          </div>
-          <div class="case-foot">
-            <div class="tags"><span>SQL Server</span><span>T-SQL</span><span>Medallion-Architektur</span><span>Sternschema</span><span>Docker</span></div>
-            <a class="btn btn-primary btn-sm" href="https://github.com/sarwar-siyam/sql-data-warehouse-project" target="_blank" rel="noopener">Code & Doku auf GitHub →</a>
-          </div>
-        </article>
-
-        <div class="cards two">
-          <a class="card project" href="https://github.com/sarwar-siyam/Postgres_Queries" target="_blank" rel="noopener">
-            <div class="tags"><span>PostgreSQL</span><span>Sternschema</span><span>CTEs</span></div>
-            <h3>Arbeitsmarktanalyse für Data Analysts</h3>
-            <p>Welche Skills sind gefragt und gut bezahlt? Analyse von Stellenanzeigen über ein Sternschema mit JOINs, CTEs und Aggregationen.</p>
-            <span class="more">Auf GitHub →</span>
-          </a>
-          <a class="card project" href="https://github.com/sarwar-siyam/sql_projekte" target="_blank" rel="noopener">
-            <div class="tags"><span>SQL Server</span><span>T-SQL</span><span>Window Functions</span></div>
-            <h3>Datenbereinigung & explorative Analyse</h3>
-            <p>Bereinigung von Immobiliendaten in sieben Schritten und Analyse weltweiter COVID-19-Daten.</p>
-            <span class="more">Auf GitHub →</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- TECH STACK -->
-    <section id="stack" class="section">
-      <div class="container">
-        <h2 class="section-title">Tech-Stack</h2>
-        <p class="section-intro">Mein Schwerpunkt liegt im Microsoft-Datenökosystem – von der Pipeline bis zum Bericht.</p>
-        <div class="stack">
-          <div class="stack-item">
-            <h3>Power BI</h3>
-            <ul class="chips"><li>DAX</li><li>Power Query (M)</li><li>Datenmodellierung</li><li>Row-Level Security</li><li>Power BI Service</li><li>Power BI Apps</li></ul>
-          </div>
-          <div class="stack-item">
-            <h3>Azure Databricks</h3>
-            <ul class="chips"><li>Medallion-Architektur</li><li>ETL / ELT</li><li>Apache Spark</li><li>Delta Lake</li><li>Delta Live Tables</li><li>PySpark & SQL</li></ul>
-          </div>
-          <div class="stack-item">
-            <h3>Azure Data Factory</h3>
-            <ul class="chips"><li>Pipelines</li><li>Orchestrierung</li><li>Datenintegration</li><li>Monitoring & Alerting</li></ul>
-          </div>
-          <div class="stack-item">
-            <h3>Microsoft Fabric</h3>
-            <ul class="chips"><li>Lakehouse (Medallion)</li><li>Warehouse</li><li>Data Pipelines</li><li>Notebooks</li><li>Direct Lake</li></ul>
-          </div>
-          <div class="stack-item">
-            <h3>Azure</h3>
-            <ul class="chips"><li>Data Lake Storage Gen2</li><li>Azure DevOps (CI/CD)</li><li>Git</li><li>SQL Server</li></ul>
-          </div>
-          <div class="stack-item">
-            <h3>Sprachen & Methoden</h3>
-            <ul class="chips"><li>SQL</li><li>Python</li><li>Requirements Engineering</li><li>KPI-Design</li><li>Data Governance</li></ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- VORGEHEN -->
-    <section id="vorgehen" class="section alt">
-      <div class="container">
-        <h2 class="section-title">So arbeite ich</h2>
-        <ol class="steps">
-          <li><span class="num">01</span><h3>Verstehen</h3><p>Welche Fragen sollen die Daten beantworten? In Workshops klären wir Ziele, Kennzahlen und Datenquellen.</p></li>
-          <li><span class="num">02</span><h3>Konzipieren</h3><p>Architektur, Datenmodell und Berechtigungen – passend zu Ihrer Umgebung und skalierbar für morgen.</p></li>
-          <li><span class="num">03</span><h3>Umsetzen</h3><p>Pipelines, Modelle und Berichte entstehen iterativ – Sie sehen früh erste Ergebnisse.</p></li>
-          <li><span class="num">04</span><h3>Übergeben</h3><p>Go-Live, Monitoring, Dokumentation und Einweisung – damit die Lösung im Alltag funktioniert.</p></li>
+        <h2 class="section-title">Berufserfahrung</h2>
+        <p class="section-intro">Arbeitgeber anonymisiert.</p>
+        <ol class="timeline">
+          <li>
+            <div class="tl-head">
+              <h3>Business Data Analyst / Data Engineer</h3>
+              <span class="tl-date">07/2024 – heute</span>
+            </div>
+            <p class="tl-org">IT-Beratung mit Schwerpunkt Microsoft Data &amp; Analytics · Frankfurt am Main</p>
+            <ul>
+              <li>Abrechnungsplattform mit Azure Data Factory, Data Lake und Databricks (Delta Live Tables) neu aufgebaut – Aktualisierung von 4&nbsp;Stunden auf 5&nbsp;Minuten (–98&nbsp;%).</li>
+              <li>Zeiterfassungs-Reporting für ein operatives Team entwickelt, inklusive hierarchischer Row-Level Security.</li>
+              <li>Bundesweites Mitglieder-Reporting mit Geo-Heatmaps vom Prototyp bis in die Produktion gebracht.</li>
+              <li>CI/CD-Pipelines für die Bereitstellung von Dev nach Prod aufgebaut; Berichte über Power-BI-Apps mit Berechtigungen veröffentlicht.</li>
+            </ul>
+          </li>
+          <li>
+            <div class="tl-head">
+              <h3>IT-Rollout-Techniker (freiberuflich)</h3>
+              <span class="tl-date">10/2023 – 05/2024</span>
+            </div>
+            <p class="tl-org">Bundesweite Einsätze</p>
+            <ul>
+              <li>Hardware-Rollout inklusive Konfiguration und Datenmigration eigenständig durchgeführt – ohne Betriebsunterbrechung.</li>
+              <li>Audit-konform dokumentiert und Altgeräte datenschutzgerecht außer Betrieb genommen.</li>
+            </ul>
+          </li>
+          <li>
+            <div class="tl-head">
+              <h3>Data Analyst – Prozessautomatisierung</h3>
+              <span class="tl-date">04/2022 – 08/2023</span>
+            </div>
+            <p class="tl-org">Frankfurt am Main</p>
+            <ul>
+              <li>Geschäfts- und Datenprozesse mit Python automatisiert und manuelle Aufwände reduziert.</li>
+              <li>Prozessanalysen durchgeführt, Schwachstellen identifiziert und Optimierungen priorisiert.</li>
+              <li>Muster- und Trendanalysen operativer Daten mit Python und Excel erstellt und in Confluence dokumentiert.</li>
+            </ul>
+          </li>
+          <li>
+            <div class="tl-head">
+              <h3>Technical Support</h3>
+              <span class="tl-date">01/2020 – 09/2021</span>
+            </div>
+            <p class="tl-org">Frankfurt am Main</p>
+            <ul>
+              <li>Technische Kundenprobleme analysiert und gelöst, bei Datensicherung und -migration unterstützt.</li>
+              <li>Support-Prozesse teamübergreifend optimiert und Lösungszeiten verkürzt.</li>
+            </ul>
+          </li>
         </ol>
       </div>
     </section>
 
-    <!-- ZERTIFIZIERUNGEN -->
-    <section class="section certs-section">
+    <!-- ===================================================== PROJEKTE AUS DER PRAXIS -->
+    <section id="projekte" class="section">
       <div class="container">
-        <h2 class="section-title small">Microsoft-zertifiziert</h2>
-        <div class="certs">
-          <div class="cert"><span class="code">DP-700</span><span>Fabric Data Engineer Associate</span></div>
-          <div class="cert"><span class="code">DP-600</span><span>Fabric Analytics Engineer Associate</span></div>
-          <div class="cert"><span class="code">PL-300</span><span>Power BI Data Analyst Associate</span></div>
-          <div class="cert"><span class="code">AZ-900</span><span>Azure Fundamentals</span></div>
+        <h2 class="section-title">Projekte aus meiner Berufspraxis</h2>
+        <p class="section-intro">Arbeitgeber und Daten anonymisiert.</p>
+
+        <!-- Projekt 1 -->
+        <article id="projekt-abrechnung" class="case">
+          <header class="case-head">
+            <p class="case-meta">IT-Beratung · Business Data Analyst / Data Engineer · [[TODO: Zeitraum]] · Team: [[TODO: Größe, eigener Anteil allein/im Team]]</p>
+            <h3>Abrechnungsplattform: Aktualisierung von 4 Stunden auf 5 Minuten</h3>
+          </header>
+          <div class="flow" aria-label="Datenfluss der Abrechnungsplattform">
+            <div class="flow-step"><strong>Quellen</strong><span>CSV · SharePoint · SQL Server</span></div>
+            <div class="flow-step bronze"><strong>Azure Data Factory</strong><span>Laden in den Data Lake</span></div>
+            <div class="flow-step silver"><strong>Data Flows</strong><span>Aufbereitung → Parquet</span></div>
+            <div class="flow-step gold"><strong>Databricks DLT</strong><span>finale Transformation</span></div>
+            <div class="flow-step"><strong>Power BI</strong><span>Berichte</span></div>
+          </div>
+          <div class="case-body">
+            <div class="result">
+              <p class="result-number">–98&nbsp;%</p>
+              <p>Aktualisierungszeit von 4&nbsp;Stunden auf 5&nbsp;Minuten – täglich automatisch, mit Monitoring und Alerting.</p>
+            </div>
+            <div class="contribution">
+              <h4>Mein Beitrag</h4>
+              <ul>
+                <li>Daten aus CSV-Dateien, SharePoint und SQL Server mit Azure Data Factory in den Data Lake geladen.</li>
+                <li>Daten mit Data Flows in die benötigte Form gebracht und als Parquet im Data Lake abgelegt.</li>
+                <li>In Azure Databricks mit Delta Live Tables die finalen Transformationen umgesetzt; Power BI liest nur noch die fertigen Tabellen.</li>
+                <li>Tägliche Aktualisierung automatisiert: ADF-Pipelines mit Triggern, Databricks Jobs und Pipelines, automatische Notebook-Ausführung.</li>
+              </ul>
+            </div>
+          </div>
+          <details>
+            <summary>Ausgangslage</summary>
+            <p>Das bestehende Power-BI-Modell verarbeitete alle Abrechnungsdaten selbst. Es war zu langsam geworden: Eine Aktualisierung dauerte rund vier Stunden.</p>
+          </details>
+          <!-- Screenshot-Slot (nur mit Testdaten):
+          <figure class="shot">
+            <img src="assets/abrechnung.webp" width="1600" height="1000" loading="lazy" alt="[[TODO: Beschreibung]]">
+            <figcaption>Beispielansicht mit Testdaten</figcaption>
+          </figure> -->
+          <ul class="tags"><li>Azure Data Factory</li><li>Data Flows</li><li>ADLS Gen2</li><li>Parquet</li><li>Azure Databricks</li><li>Delta Live Tables</li><li>Power BI</li></ul>
+        </article>
+
+        <!-- Projekt 2 -->
+        <article id="projekt-zeiterfassung" class="case">
+          <header class="case-head">
+            <p class="case-meta">IT-Beratung · Business Data Analyst / Data Engineer · [[TODO: Zeitraum]] · Team: [[TODO]]</p>
+            <h3>Zeiterfassungs-Reporting mit hierarchischer Row-Level Security</h3>
+          </header>
+          <div class="case-body">
+            <div class="result">
+              <p class="result-number">1 Bericht</p>
+              <p>für Arbeitszeiten, Urlaub, Krankheit, Pausenregeln und Soll-Stunden – jede Person sieht nur, wofür sie berechtigt ist.</p>
+              <p class="todo-inline">[[TODO: Wie viele Führungskräfte nutzen die App? Wie viele Listen/Exporte wurden ersetzt?]]</p>
+            </div>
+            <div class="contribution">
+              <h4>Mein Beitrag</h4>
+              <ul>
+                <li>Zeiterfassungsdaten aus SQL Server in Power BI geladen, mit Power Query bereinigt und als Datenmodell abgebildet.</li>
+                <li>Kennzahlen in DAX umgesetzt: Ist- gegenüber Tages- und Wochensoll, Mehrarbeit, Einhaltung der Pausenregeln und vergessene Erfassungstage.</li>
+                <li>Hierarchische Row-Level Security aufgebaut, damit nur berechtigte Personen die Daten ihres Bereichs sehen.</li>
+                <li>Bericht über eine Power-BI-App mit Berechtigungen veröffentlicht.</li>
+              </ul>
+            </div>
+          </div>
+          <details>
+            <summary>Ausgangslage</summary>
+            <p>Das operative Team brauchte einen verlässlichen Überblick: Wer hat wann wie lange gearbeitet, wer hatte Urlaub oder war krank, wurden Pausenregeln eingehalten und das Soll erbracht – und wo fehlt eine Erfassung?</p>
+          </details>
+          <ul class="tags"><li>Power BI</li><li>SQL Server</li><li>Power Query</li><li>DAX</li><li>Row-Level Security</li><li>Power BI Apps</li></ul>
+        </article>
+
+        <!-- Projekt 3 -->
+        <article id="projekt-mitglieder" class="case">
+          <header class="case-head">
+            <p class="case-meta">IT-Beratung · Business Data Analyst / Data Engineer · [[TODO: Zeitraum]] · Team: [[TODO]]</p>
+            <h3>Bundesweites Mitglieder-Reporting mit Geo-Heatmaps</h3>
+          </header>
+          <div class="case-body">
+            <div class="result">
+              <p class="result-number">Bundesweit</p>
+              <p>Regionale Entwicklungen auf einen Blick – vom Prototyp bis in die Produktivumgebung.</p>
+              <p class="todo-inline">[[TODO: Wie viele Nutzer/Regionen? Wie viel manueller Auswertungsaufwand entfiel?]]</p>
+            </div>
+            <div class="contribution">
+              <h4>Mein Beitrag</h4>
+              <ul>
+                <li>Skalierbares Datenmodell mit DAX-Kennzahlen entwickelt.</li>
+                <li>Regionale Auswertungen mit Geo-Heatmaps umgesetzt.</li>
+                <li>Lösung vom Prototyp in Power BI Desktop in die Produktivumgebung überführt und über Power BI Service bereitgestellt.</li>
+              </ul>
+            </div>
+          </div>
+          <ul class="tags"><li>Power BI</li><li>DAX</li><li>Datenmodellierung</li><li>Geo-Visualisierung</li><li>Power BI Service</li></ul>
+        </article>
+
+        <!-- Projekt 4 -->
+        <article id="projekt-automatisierung" class="case">
+          <header class="case-head">
+            <p class="case-meta">Data Analyst · 04/2022 – 08/2023 · Team: [[TODO]]</p>
+            <h3>Automatisierung manueller Datenprozesse mit Python</h3>
+          </header>
+          <div class="case-body">
+            <div class="result">
+              <p class="result-number">Weniger Handarbeit</p>
+              <p>Wiederkehrende Aufbereitungen und Auswertungen laufen automatisiert.</p>
+              <p class="todo-inline">[[TODO: Wie viele Stunden pro Woche/Monat gespart?]]</p>
+            </div>
+            <div class="contribution">
+              <h4>Mein Beitrag</h4>
+              <ul>
+                <li>Prozessanalysen durchgeführt, um Schwachstellen zu finden und Optimierungen zu priorisieren.</li>
+                <li>Geschäfts- und Datenprozesse mit Python automatisiert.</li>
+                <li>Muster- und Trendanalysen mit Python und Excel erstellt und in Confluence dokumentiert.</li>
+              </ul>
+            </div>
+          </div>
+          <ul class="tags"><li>Python</li><li>Excel</li><li>Prozessanalyse</li><li>Confluence</li></ul>
+        </article>
+
+        <!-- Querschnitt -->
+        <article class="case case-compact">
+          <header class="case-head">
+            <p class="case-meta">IT-Beratung · projektübergreifend</p>
+            <h3>Bereitstellung &amp; Betrieb: CI/CD und Power-BI-Apps</h3>
+          </header>
+          <div class="contribution">
+            <ul>
+              <li>CI/CD-Pipelines für die Bereitstellung von der Entwicklungs- in die Produktivumgebung (Dev → Prod) aufgebaut.</li>
+              <li>Dashboards über Power-BI-Apps veröffentlicht und Berechtigungen für die Nutzergruppen eingerichtet.</li>
+            </ul>
+          </div>
+          <ul class="tags"><li>CI/CD</li><li>Azure DevOps</li><li>Git</li><li>Power BI Apps</li><li>Berechtigungskonzept</li></ul>
+        </article>
+
+        <!-- ================================================= EIGENE PROJEKTE -->
+        <div id="eigene-projekte" class="own-projects">
+          <h3 class="sub-title">Eigene Projekte</h3>
+          <p>Lernprojekte zu SQL und Datenanalyse veröffentliche ich auf GitHub.</p>
+          <a class="text-link" href="https://github.com/sarwar-siyam" target="_blank" rel="noopener">Weitere Lernprojekte auf GitHub →</a>
+          <!-- [[TODO: Fabric-End-to-End-Projekt mit öffentlichen Daten: Pipeline → Lakehouse → Direct-Lake-Bericht, Git-Integration]]
+          <article class="card project">
+            <ul class="tags"><li>Microsoft Fabric</li><li>Lakehouse</li><li>Direct Lake</li></ul>
+            <h4>Titel</h4>
+            <p>Beschreibung</p>
+            <a class="text-link" href="https://github.com/sarwar-siyam/REPO">Code &amp; Doku auf GitHub →</a>
+          </article>
+          -->
         </div>
       </div>
     </section>
 
-    <!-- KONTAKT -->
-    <section id="kontakt" class="section contact">
+    <!-- ===================================================== SKILLS -->
+    <section id="skills" class="section alt">
       <div class="container">
-        <h2 class="section-title">Haben Sie ein Datenprojekt?</h2>
-        <p class="section-intro">Ob langsame Reports, eine neue Datenplattform oder der Umstieg auf Microsoft Fabric – lassen Sie uns kurz darüber sprechen.</p>
+        <h2 class="section-title">Skills</h2>
+        <p class="section-intro">Mein Schwerpunkt ist das Microsoft-Datenökosystem – von der Pipeline bis zum Bericht.</p>
+        <div class="stack">
+          <div class="stack-item">
+            <h3>Power BI</h3>
+            <ul class="chips"><li>DAX</li><li>Power Query (M)</li><li>Sternschema / dimensionale Modellierung</li><li>Row-Level Security</li><li>Power BI Service</li><li>Power BI Apps</li></ul>
+            <p class="stack-proof">Belegt in: <a href="#projekt-zeiterfassung">Zeiterfassung</a>, <a href="#projekt-mitglieder">Mitglieder-Reporting</a></p>
+          </div>
+          <div class="stack-item">
+            <h3>Azure Databricks</h3>
+            <ul class="chips"><li>Delta Live Tables</li><li>Delta Lake</li><li>Apache Spark</li><li>Notebooks</li><li>Jobs &amp; Pipelines</li><li>Medallion-Architektur</li></ul>
+            <p class="stack-proof">Belegt in: <a href="#projekt-abrechnung">Abrechnungsplattform</a></p>
+          </div>
+          <div class="stack-item">
+            <h3>Azure Data Factory</h3>
+            <ul class="chips"><li>Pipelines &amp; Trigger</li><li>Data Flows</li><li>ETL / ELT</li><li>Monitoring &amp; Alerting</li></ul>
+            <p class="stack-proof">Belegt in: <a href="#projekt-abrechnung">Abrechnungsplattform</a></p>
+          </div>
+          <div class="stack-item">
+            <h3>Microsoft Fabric</h3>
+            <ul class="chips"><li>Lakehouse</li><li>Warehouse</li><li>Data Pipelines</li><li>Notebooks</li><li>Direct Lake</li></ul>
+            <p class="stack-proof">Zertifiziert: DP-700, DP-600</p>
+          </div>
+          <div class="stack-item">
+            <h3>Azure &amp; DevOps</h3>
+            <ul class="chips"><li>Data Lake Storage Gen2</li><li>SQL Server</li><li>SharePoint</li><li>Azure DevOps (CI/CD)</li><li>Git</li></ul>
+            <p class="stack-proof">Belegt in: <a href="#projekt-abrechnung">Abrechnungsplattform</a>, CI/CD Dev → Prod</p>
+          </div>
+          <div class="stack-item">
+            <h3>Sprachen &amp; Methoden</h3>
+            <ul class="chips"><li>SQL</li><li>Python</li><li>Data Governance</li><li>Requirements Engineering</li><li>KPI-Design</li><li>Stakeholder-Management</li></ul>
+            <p class="stack-proof">Belegt in: <a href="#projekt-automatisierung">Automatisierung</a>, allen Projekten</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================== AUSBILDUNG & ZERTIFIZIERUNGEN -->
+    <section id="ausbildung" class="section">
+      <div class="container">
+        <h2 class="section-title">Ausbildung &amp; Zertifizierungen</h2>
+        <div class="edu-grid">
+          <div class="card">
+            <h3>Studium</h3>
+            <p><strong>B.Sc. Wirtschaftsinformatik</strong> (berufsbegleitend)<br>FOM Hochschule für Oekonomie &amp; Management, Frankfurt am Main · 2024 – 2026</p>
+          </div>
+          <div class="certs">
+            <div class="cert"><span class="code">DP-700</span><span>Microsoft Certified: Fabric Data Engineer Associate</span><span class="cert-link">[[TODO: Verifizierungslink · Jahr]]</span></div>
+            <div class="cert"><span class="code">DP-600</span><span>Microsoft Certified: Fabric Analytics Engineer Associate</span><span class="cert-link">[[TODO: Verifizierungslink · Jahr]]</span></div>
+            <div class="cert"><span class="code">PL-300</span><span>Microsoft Certified: Power BI Data Analyst Associate</span><span class="cert-link">[[TODO: Verifizierungslink · Jahr]]</span></div>
+            <div class="cert"><span class="code">AZ-900</span><span>Microsoft Certified: Azure Fundamentals</span><span class="cert-link">[[TODO: Verifizierungslink · Jahr]]</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================================================== WIE ICH ARBEITE -->
+    <section id="arbeitsweise" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Wie ich arbeite</h2>
+        <ol class="steps">
+          <li><span class="num">01</span><h3>Verstehen</h3><p>Ich kläre mit dem Fachbereich, welche Fragen die Daten beantworten sollen, und lege Kennzahlen und Quellen gemeinsam fest.</p></li>
+          <li><span class="num">02</span><h3>Konzipieren</h3><p>Ich entwerfe Architektur, Datenmodell und Berechtigungen und stimme sie mit IT und Team ab.</p></li>
+          <li><span class="num">03</span><h3>Umsetzen</h3><p>Ich baue Pipelines, Modelle und Berichte schrittweise, damit Nutzer früh Feedback geben können.</p></li>
+          <li><span class="num">04</span><h3>Übergeben</h3><p>Ich bringe Lösungen über CI/CD in Produktion, dokumentiere sie und übergebe sie an Betrieb und Nutzer.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================================================== ÜBER MICH -->
+    <section id="ueber-mich" class="section">
+      <div class="container about">
+        <h2 class="section-title">Über mich</h2>
+        <p>
+          Ich bin Data Engineer in Frankfurt und arbeite vor allem mit Azure Databricks, Microsoft Fabric und Power BI.
+          Neben dem Beruf studiere ich Wirtschaftsinformatik an der FOM Hochschule.
+          <span class="todo-inline">[[TODO: Wie bin ich zu Daten gekommen? Was reizt mich am Data Engineering?]]</span>
+        </p>
+        <p>
+          Mich interessieren Aufgaben an der Schnittstelle von Datenplattform und Reporting – vom Laden der Daten bis zur Kennzahl, mit der ein Fachbereich arbeitet.
+          <span class="todo-inline">[[TODO: In welchem Team und an welchen Themen möchte ich arbeiten?]]</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===================================================== KONTAKT -->
+    <section id="kontakt" class="section alt contact">
+      <div class="container">
+        <h2 class="section-title">Kontakt</h2>
+        <p class="section-intro">Ich freue mich über Nachrichten von Unternehmen und Personalberatungen. Sie erreichen mich am schnellsten per E-Mail oder über LinkedIn.</p>
         <div class="contact-links">
           <a class="btn btn-primary" href="mailto:siyam.aghbar@icloud.com">siyam.aghbar@icloud.com</a>
           <a class="btn btn-ghost" href="https://www.linkedin.com/in/siyam-aghbar-1a1a46248/" target="_blank" rel="noopener">LinkedIn</a>
           <a class="btn btn-ghost" href="https://github.com/sarwar-siyam" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-ghost" href="assets/Lebenslauf_Siyam_Aghbar.pdf">Lebenslauf (PDF)</a>
         </div>
-        <p class="location">Sarwar Siyam Aghbar · Frankfurt am Main</p>
+        <p class="location">Siyam Aghbar · Frankfurt am Main</p>
       </div>
     </section>
   </main>
@@ -323,5 +453,20 @@
     </div>
   </footer>
 
+  <script>
+    // Mobiles Menü
+    (function () {
+      var btn = document.querySelector('.nav-toggle');
+      var menu = document.getElementById('hauptmenue');
+      btn.addEventListener('click', function () {
+        var open = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!open));
+        menu.classList.toggle('open', !open);
+      });
+      menu.addEventListener('click', function (e) {
+        if (e.target.closest('a')) { btn.setAttribute('aria-expanded', 'false'); menu.classList.remove('open'); }
+      });
+    })();
+  </script>
 </body>
 </html>
