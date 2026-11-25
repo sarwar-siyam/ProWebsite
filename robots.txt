@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sarwar-siyam.github.io/ProWebsite/sitemap.xml
