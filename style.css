@@ -274,6 +274,7 @@ summary:focus-visible { outline-offset: 4px; }
 @media (max-width: 960px) {
   .hero-grid { grid-template-columns: 1fr; gap: 32px; }
   .cards.three, .stack { grid-template-columns: 1fr 1fr; }
+  .cards.three > :last-child:nth-child(odd) { grid-column: 1 / -1; }
   .steps { grid-template-columns: 1fr 1fr; }
   .case-body, .edu-grid { grid-template-columns: 1fr; gap: 18px; }
 }
